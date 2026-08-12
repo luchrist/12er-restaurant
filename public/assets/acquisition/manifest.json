@@ -1,0 +1,263 @@
+[
+  {
+    "originalFile": "scraped-01.jpg",
+    "file": "photos/restaurant/restaurant-innenraum-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Innenraum",
+    "subjectSlug": "restaurant-innenraum",
+    "description": "Ein heller und einladender Restaurant-Innenraum mit vielen gedeckten Tischen und Holzakzenten."
+  },
+  {
+    "originalFile": "scraped-02.jpg",
+    "file": "photos/dishes/garnelen-mit-knoblauch-und-brot-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Garnelen mit Knoblauch und Brot",
+    "subjectSlug": "garnelen-mit-knoblauch-und-brot",
+    "description": "Eine Schale mit Garnelen, Kirschtomaten und Knoblauch in Öl, serviert mit Brotscheiben."
+  },
+  {
+    "originalFile": "scraped-03.jpg",
+    "file": "photos/dishes/paniertes-schnitzel-mit-pommes-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Paniertes Schnitzel mit Pommes",
+    "subjectSlug": "paniertes-schnitzel-mit-pommes",
+    "description": "Ein paniertes Schnitzel mit Pommes Frites und Zitronenscheiben auf einem weißen Teller."
+  },
+  {
+    "originalFile": "scraped-04.jpg",
+    "file": "photos/restaurant/restauranttisch-mit-essen-und-getranken-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restauranttisch mit Essen und Getränken",
+    "subjectSlug": "restauranttisch-mit-essen-und-getranken",
+    "description": "Ein gedeckter Restauranttisch mit zwei Hauptgerichten, Pommes Frites und Getränken."
+  },
+  {
+    "originalFile": "scraped-05.jpg",
+    "file": "photos/dishes/hauptgericht-mit-fleisch-und-beilagen-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Hauptgericht mit Fleisch und Beilagen",
+    "subjectSlug": "hauptgericht-mit-fleisch-und-beilagen",
+    "description": "Ein Hauptgericht mit gebratenem Fleisch, grünen Bohnen, Krautsalat, Blattsalat und Brot auf einem hellgrünen Teller."
+  },
+  {
+    "originalFile": "scraped-06.jpg",
+    "file": "photos/dishes/paniertes-schnitzel-mit-zwiebeln-und-pommes-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Paniertes Schnitzel mit Zwiebeln und Pommes",
+    "subjectSlug": "paniertes-schnitzel-mit-zwiebeln-und-pommes",
+    "description": "Ein paniertes Schnitzel mit geschmorten Zwiebeln und einer Portion Pommes Frites auf einem weißen Teller."
+  },
+  {
+    "originalFile": "scraped-07.jpg",
+    "file": "photos/restaurant/restaurant-auenansicht-mit-terrasse-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Außenansicht mit Terrasse",
+    "subjectSlug": "restaurant-auenansicht-mit-terrasse",
+    "description": "Das Foto zeigt die gelbe Außenansicht eines Restaurants mit einer Außenterrasse und Bäumen im Hintergrund unter blauem Himmel."
+  },
+  {
+    "originalFile": "scraped-09.jpg",
+    "file": "photos/dishes/schnitzel-mit-pommes-und-rahmsauce-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Schnitzel mit Pommes und Rahmsauce",
+    "subjectSlug": "schnitzel-mit-pommes-und-rahmsauce",
+    "description": "Ein Teller mit paniertem Fleisch, bedeckt mit einer cremigen Kräutersauce und dazu Pommes Frites."
+  },
+  {
+    "originalFile": "scraped-10.jpg",
+    "file": "photos/dishes/knoblauchgarnelen-mit-brot-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Knoblauchgarnelen mit Brot",
+    "subjectSlug": "knoblauchgarnelen-mit-brot",
+    "description": "Ein Gericht mit Knoblauchgarnelen und Kirschtomaten in einer braunen Schale, serviert mit frischem Brot in einem Korb."
+  },
+  {
+    "originalFile": "scraped-11.jpg",
+    "file": "photos/restaurant/schnitzel-mit-pommes-und-bier-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Schnitzel mit Pommes und Bier",
+    "subjectSlug": "schnitzel-mit-pommes-und-bier",
+    "description": "Ein Teller mit Schnitzel, Pommes und Röstzwiebeln steht zusammen mit einem Glas Benediktiner Weissbier auf einem Holztisch im Freien."
+  },
+  {
+    "originalFile": "scraped-12.jpg",
+    "file": "photos/dishes/schnitzelplatte-mit-zitrone-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Schnitzelplatte mit Zitrone",
+    "subjectSlug": "schnitzelplatte-mit-zitrone",
+    "description": "Eine große Platte mit paniertem Schnitzel, frischem Salat und Zitronenscheiben."
+  },
+  {
+    "originalFile": "scraped-13.jpg",
+    "file": "photos/restaurant/gedeckter-tisch-im-restaurant-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Gedeckter Tisch im Restaurant",
+    "subjectSlug": "gedeckter-tisch-im-restaurant",
+    "description": "Ein gedeckter Tisch mit verschiedenen Gerichten und Getränken in einem Restaurant im Freien."
+  },
+  {
+    "originalFile": "scraped-14.jpg",
+    "file": "photos/dishes/gratiniertes-schnitzel-mit-kartoffelchips-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Gratiniertes Schnitzel mit Kartoffelchips",
+    "subjectSlug": "gratiniertes-schnitzel-mit-kartoffelchips",
+    "description": "Ein Teller mit einem gratinierten Schnitzel und einer Beilage aus goldbraunen Kartoffelchips."
+  },
+  {
+    "originalFile": "scraped-15.jpg",
+    "file": "photos/dishes/hahnchen-mit-pilzen-und-bratkartoffeln-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Hähnchen mit Pilzen und Bratkartoffeln",
+    "subjectSlug": "hahnchen-mit-pilzen-und-bratkartoffeln",
+    "description": "Ein Gericht mit Hähnchen, Pilzen, Bratkartoffeln, Salat und Tomatensalsa auf einem weißen Teller."
+  },
+  {
+    "originalFile": "scraped-16.jpg",
+    "file": "photos/dishes/entenkeule-mit-kloen-und-soe-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Entenkeule mit Klößen und Soße",
+    "subjectSlug": "entenkeule-mit-kloen-und-soe",
+    "description": "Ein Teller mit einer knusprigen Entenkeule, drei Kartoffelklößen und dunkler Soße."
+  },
+  {
+    "originalFile": "scraped-17.jpg",
+    "file": "photos/restaurant/restaurant-auenansicht-mit-terrasse-02.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Restaurant-Außenansicht mit Terrasse",
+    "subjectSlug": "restaurant-auenansicht-mit-terrasse",
+    "description": "Das Foto zeigt die Außenansicht eines Restaurants mit einer einladenden Terrasse und Sonnenschirmen."
+  },
+  {
+    "originalFile": "scraped-18.jpg",
+    "file": "photos/restaurant/uberdachte-restaurant-terrasse-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Überdachte Restaurant-Terrasse",
+    "subjectSlug": "uberdachte-restaurant-terrasse",
+    "description": "Eine überdachte Terrasse eines Restaurants mit mehreren Tischen und Stühlen, umgeben von Grün."
+  },
+  {
+    "originalFile": "scraped-19.jpg",
+    "file": "photos/dishes/schnitzel-mit-pommes-und-zitrone-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Schnitzel mit Pommes und Zitrone",
+    "subjectSlug": "schnitzel-mit-pommes-und-zitrone",
+    "description": "Ein paniertes Schnitzel mit Pommes Frites und Zitronenscheiben auf einem weißen Teller angerichtet."
+  },
+  {
+    "originalFile": "scraped-20.jpg",
+    "file": "photos/dishes/paniertes-gericht-mit-pilzen-und-gemuse-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Paniertes Gericht mit Pilzen und Gemüse",
+    "subjectSlug": "paniertes-gericht-mit-pilzen-und-gemuse",
+    "description": "Ein appetitlich angerichtetes paniertes Gericht, garniert mit Pilzen und einer bunten Mischung aus frischem Gemüse."
+  },
+  {
+    "originalFile": "scraped-21.jpg",
+    "file": "photos/dishes/steak-auf-brot-mit-salsa-und-salat-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Steak auf Brot mit Salsa und Salat",
+    "subjectSlug": "steak-auf-brot-mit-salsa-und-salat",
+    "description": "Ein Teller mit Steak auf geröstetem Brot, garniert mit Tomatensalsa und einem frischen Beilagensalat."
+  },
+  {
+    "originalFile": "scraped-22.jpg",
+    "file": "photos/restaurant/tisch-mit-verschiedenen-gerichten-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Tisch mit verschiedenen Gerichten",
+    "subjectSlug": "tisch-mit-verschiedenen-gerichten",
+    "description": "Ein Tisch ist mit einer Auswahl an verschiedenen Gerichten gedeckt, darunter eine große gemischte Platte, Pasta und gebratene Speisen."
+  },
+  {
+    "originalFile": "scraped-23.jpg",
+    "file": "photos/dishes/bratkartoffeln-mit-zwiebelfleisch-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Bratkartoffeln mit Zwiebelfleisch",
+    "subjectSlug": "bratkartoffeln-mit-zwiebelfleisch",
+    "description": "Ein Teller mit goldbraunen Bratkartoffeln und einem Fleischgericht, bedeckt mit Röstzwiebeln und einem Stück Butter."
+  },
+  {
+    "originalFile": "scraped-24.jpg",
+    "file": "photos/dishes/paniertes-schnitzel-mit-basilikum-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Paniertes Schnitzel mit Basilikum",
+    "subjectSlug": "paniertes-schnitzel-mit-basilikum",
+    "description": "Ein paniertes Schnitzel, garniert mit einem Basilikumblatt und rotem Gewürz, auf einem weißen Teller."
+  },
+  {
+    "originalFile": "scraped-25.jpg",
+    "file": "photos/restaurant/tisch-mit-hauptgericht-und-beilage-01.jpg",
+    "category": "restaurant",
+    "quality": "high",
+    "subject": "Tisch mit Hauptgericht und Beilage",
+    "subjectSlug": "tisch-mit-hauptgericht-und-beilage",
+    "description": "Ein gedeckter Tisch in einem Restaurant mit einem Hauptgericht in einer Auflaufform und einer Beilage aus Kartoffeln."
+  },
+  {
+    "originalFile": "scraped-26.jpg",
+    "file": "photos/dishes/fleisch-mit-krautersauce-und-pommes-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Fleisch mit Kräutersauce und Pommes",
+    "subjectSlug": "fleisch-mit-krautersauce-und-pommes",
+    "description": "Ein Teller mit Fleisch in cremiger Kräutersauce und einer Beilage Pommes Frites in einem kleinen Korb."
+  },
+  {
+    "originalFile": "scraped-27.jpg",
+    "file": "photos/dishes/paniertes-schnitzel-mit-zwiebeln-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Paniertes Schnitzel mit Zwiebeln",
+    "subjectSlug": "paniertes-schnitzel-mit-zwiebeln",
+    "description": "Ein paniertes Schnitzel mit karamellisierten Zwiebeln auf einem weißen Teller, teilweise angeschnitten."
+  },
+  {
+    "originalFile": "scraped-28.jpg",
+    "file": "photos/dishes/gelbe-suppe-mit-croutons-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Gelbe Suppe mit Croutons",
+    "subjectSlug": "gelbe-suppe-mit-croutons",
+    "description": "Eine gelbe Suppe, garniert mit Croutons und dunkler Soße, wird in einer weißen Schale auf einem roten Tisch serviert."
+  },
+  {
+    "originalFile": "scraped-29.jpg",
+    "file": "photos/_skipped/steak-mit-pfeffersauce-und-pommes-01.jpg",
+    "category": "dish",
+    "quality": "low",
+    "subject": "Steak mit Pfeffersauce und Pommes",
+    "subjectSlug": "steak-mit-pfeffersauce-und-pommes",
+    "description": "Ein Teller mit einem Fleischgericht in dunkler Sauce, dazu Pommes Frites in einem Korb und ein Glas Rotwein."
+  },
+  {
+    "originalFile": "scraped-30.jpg",
+    "file": "photos/dishes/jagerschnitzel-mit-pilzen-01.jpg",
+    "category": "dish",
+    "quality": "high",
+    "subject": "Jägerschnitzel mit Pilzen",
+    "subjectSlug": "jagerschnitzel-mit-pilzen",
+    "description": "Ein paniertes Schnitzel mit dunkler Pilzrahmsoße und vielen Pilzen auf einem weißen Teller."
+  }
+]
