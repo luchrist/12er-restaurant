@@ -25,139 +25,252 @@ export const menuImageUrls: string[] = [];
 
 export const menuCategories: MenuCategory[] = [
   {
-    "id": "at-a-glance",
-    "label": "At a Glance",
-    "items": [
+    id: "vorspeisen",
+    label: "Vorspeisen",
+    intro: "Zum Ankommen.",
+    items: [
       {
-        "name": "Weingut Frosch Riesling Trocken",
-        "description": "0,2l, 0,1l",
-        "price": ""
+        name: "Hirtenkäse",
+        description: "gebratener, panierter griechischer Schafskäse an Salat, dazu Baguette",
+        price: "8,90 €",
       },
       {
-        "name": "Weingut Frosch Halbtrocken",
-        "description": "0,2l, 0,1l",
-        "price": ""
+        name: "Gefüllte Champignons",
+        description: "mit griechischem Schafskäse gefüllte Champignonköpfe an Salat, dazu Baguette",
+        price: "8,90 €",
       },
       {
-        "name": "Weingut Loeff Blauer Spätburgunder Trocken",
-        "description": "0,2l, 0,1l",
-        "price": ""
-      }
-    ]
+        name: "Bruschetta",
+        description: "geröstetes Baguette mit gewürfelten Tomaten, Olivenöl, Knoblauch und Kräutern an Salat",
+        price: "8,90 €",
+      },
+    ],
   },
   {
-    "id": "wei-weine",
-    "label": "Weißweine",
-    "items": [
+    id: "regionales",
+    label: "Regionales",
+    intro: "Hessisch, ehrlich, gut.",
+    items: [
       {
-        "name": "Weingut Frosch Riesling Trocken",
-        "description": "0,2l, 0,1l",
-        "price": ""
+        name: "Handkäs' mit Musik",
+        description: "der klassische Sauermilchkäse mit Zwiebelwürfeln, Hausdressing und Kümmel, dazu Mischbrot und Butter",
+        price: "7,90 €",
       },
       {
-        "name": "Weingut Frosch Riesling Halbtrocken",
-        "description": "0,2l, 0,1l",
-        "price": ""
+        name: "Wurst-Käse-Salat",
+        description: "Brühwurststreifen angemacht mit Essig, Zwiebeln und Gewürzgurken, getoppt mit Goudastreifen, dazu Mischbrot und Butter (erhältlich von März bis einschließlich Oktober)",
+        price: "8,90 €",
       },
-      {
-        "name": "Müller Thurgau Lieblich",
-        "description": "0,2l, 0,1l",
-        "price": ""
-      }
-    ]
+    ],
   },
   {
-    "id": "rose",
-    "label": "Rosé",
-    "items": [
+    id: "saisonales",
+    label: "Saisonales",
+    intro: "Sommer auf dem Teller.",
+    items: [
       {
-        "name": "Weingut Frosch Halbtrocken",
-        "description": "0,2l, 0,1l",
-        "price": ""
-      }
-    ]
+        name: "Gazpacho",
+        description: "kalte spanische Gemüsesuppe auf Tomaten-/Paprikabasis mit Croûtons, abgeschmeckt mit verschiedenen Gemüsen und Kräutern, dazu Baguette",
+        price: "7,90 €",
+      },
+      {
+        name: "Camembert",
+        description: "panierter und gebackener französischer Weichkäse an Salat, dazu Preiselbeeren und Baguette",
+        price: "8,90 €",
+      },
+      {
+        name: "Handkästatar",
+        description: "geraspelter Handkäs, angemacht mit Zwiebeln und Balsamico-Vinaigrette, dazu Graubrot und Butter",
+        price: "8,90 €",
+      },
+    ],
   },
   {
-    "id": "rotweine",
-    "label": "Rotweine",
-    "items": [
+    id: "salate",
+    label: "Salate",
+    intro: "Frisch & knackig.",
+    items: [
       {
-        "name": "Weingut Loeff Blauer Spätburgunder Trocken",
-        "description": "0,2l, 0,1l",
-        "price": ""
+        name: "12er Salat",
+        description: "bunter Blattsalat mit gebratenen Hühnerbrust- und Rindfleischstreifen, Kernen und Croûtons, mit Balsamico-Vinaigrette oder Kräuter-Joghurt-Dressing, dazu Baguette",
+        price: "15,90 €",
       },
       {
-        "name": "Weingut Loeff Portugieser Halbtrocken",
-        "description": "0,2l, 0,1l",
-        "price": ""
+        name: "Salat Funghi",
+        description: "bunter Blattsalat mit gebratenen Champignons, Kernen und Croûtons, mit Balsamico-Vinaigrette oder Joghurt-Kräuter-Dressing (vegetarisch), dazu Baguette",
+        price: "12,90 €",
+        vegan: true,
       },
-      {
-        "name": "Weingut Loeff Dornfelder Lieblich",
-        "description": "0,2l, 0,1l",
-        "price": ""
-      }
-    ]
+    ],
   },
   {
-    "id": "weinschorlen",
-    "label": "Weinschorlen",
-    "items": [
+    id: "vom-schwein",
+    label: "Vom Schwein",
+    intro: "Schnitzel-Klassiker.",
+    items: [
       {
-        "name": "Rieslingschorle Sauer",
-        "description": "0,4l, 0,2l",
-        "price": ""
+        name: "Schnitzel „Wiener Art\"",
+        description: "zwei Schweineschnitzel in einer Laugengebäck-Panade mit Zitrone",
+        price: "11,50 €",
       },
       {
-        "name": "Rieslingschorle Süß",
-        "description": "0,4l, 0,2l",
-        "price": ""
+        name: "Schnitzel „Wiener Art\" mit Soße",
+        description: "wahlweise mit Paprikasoße, Jägersoße (auf Rotweinjus-Basis), Knoblauch-Kräuter-Soße oder Bratzwiebeln",
+        price: "12,90 €",
       },
       {
-        "name": "Roséschorle",
-        "description": "0,4l, 0,2l",
-        "price": ""
+        name: "12er Schnitzel",
+        description: "zwei Schweineschnitzel in einer Laugengebäck-Panade mit Senf und Meerrettich",
+        price: "12,90 €",
       },
       {
-        "name": "Rot Sauer",
-        "description": "0,4l, 0,2l",
-        "price": ""
+        name: "Schnitzel „Milano\"",
+        description: "zwei Schweineschnitzel in einer Laugengebäck-Panade mit Spaghetti Pomodoro",
+        price: "14,90 €",
       },
       {
-        "name": "Cola-Rotwein",
-        "description": "0,4l, 0,2l",
-        "price": ""
-      }
-    ]
+        name: "Cordon Bleu",
+        description: "mit Kochschinken und Gouda gefülltes, paniertes Schweinefleisch mit Zitrone",
+        price: "14,90 €",
+      },
+    ],
   },
   {
-    "id": "sonstiges",
-    "label": "Sonstiges",
-    "items": [
+    id: "vom-rind",
+    label: "Vom Rind",
+    intro: "Steaks vom Grill.",
+    items: [
       {
-        "name": "Krümelmonster",
-        "description": "Kleines paniertes schweineschnitzel, wahlweise mit pommes frites oder pfannengemüse",
-        "price": ""
+        name: "Rumpsteak",
+        description: "wahlweise mit Kräuterbutter, Knoblauch-Chili-Butter, Bratzwiebeln oder Madagaskar-Pfeffersoße",
+        price: "23,90 €",
       },
       {
-        "name": "Donald Duck",
-        "description": "6 hausgemachte chicken nuggets, wahlweise mit pommes frites oder pfannengemüse",
-        "price": ""
+        name: "Rumpsteak „Vesuvio\"",
+        description: "kleines Rumpsteak an Salat mit Balsamico-Vinaigrette, serviert auf geröstetem Baguette, getoppt mit gewürfelten Tomaten in Olivenöl mit Knoblauch und Kräutern",
+        price: "19,90 €",
       },
       {
-        "name": "Topolino",
-        "description": "Spaghetti mit tomatensoße",
-        "price": ""
+        name: "Surf & Turf",
+        description: "Rumpsteak mit in Olivenöl gegarten Garnelen mit Cherrytomaten, Knoblauch und Peperoncino",
+        price: "28,90 €",
+      },
+    ],
+  },
+  {
+    id: "vom-huhn",
+    label: "Vom Huhn",
+    intro: "Federleicht.",
+    items: [
+      {
+        name: "12er Huhn",
+        description: "gebratene Hühnerbrust auf buntem Pfannengemüse, getoppt mit gebratenen Champignons",
+        price: "14,90 €",
+      },
+    ],
+  },
+  {
+    id: "vegetarisch",
+    label: "Vegetarisch & Pescetarisch",
+    intro: "Ohne Fleisch, mit Charakter.",
+    items: [
+      {
+        name: "Kohlrabischnitzel",
+        description: "gebratene Kohlrabischeiben in einer Laugengebäck-Panade",
+        price: "7,50 €",
       },
       {
-        "name": "Calimero",
-        "description": "Spaghetti mit ei und schinken",
-        "price": ""
+        name: "Kohlrabischnitzel mit Soße",
+        description: "wahlweise mit Paprikasoße, Knoblauch-Kräuter-Soße, Kräuterbutter oder Knoblauch-Chili-Butter",
+        price: "8,90 €",
       },
       {
-        "name": "Pinocchio",
-        "description": "2 bällchen eis (vanille, schoko oder erdbeere), smarties und eine waffeltüte",
-        "price": ""
-      }
-    ]
-  }
+        name: "12er Käs'",
+        description: "panierter, gebratener griechischer Schafskäse auf buntem Pfannengemüse, getoppt mit gebratenen Champignons",
+        price: "11,90 €",
+      },
+      {
+        name: "Spaghetti Aglio Olio e Peperoncino",
+        description: "Pasta aus Hartweizengrieß (ohne Ei) in Olivenöl mit Cherrytomaten, Knoblauch und Peperoncino, dazu Grana Padano (vegetarisch)",
+        price: "12,90 €",
+        vegan: true,
+      },
+      {
+        name: "Spaghetti Aglio Olio mit Garnelen",
+        description: "wahlweise mit Garnelen",
+        price: "17,90 €",
+      },
+      {
+        name: "Garnelenpfanne",
+        description: "in Olivenöl gegarte Garnelen mit Cherrytomaten, Knoblauch und Peperoncino, dazu Baguette",
+        price: "13,90 €",
+      },
+    ],
+  },
+  {
+    id: "beilagen",
+    label: "Beilagen",
+    intro: "Zum Kombinieren.",
+    items: [
+      {
+        name: "Pommes frites oder griechische Bratkartoffeln",
+        description: "frittierte Kartoffelscheiben",
+        price: "3,90 €",
+      },
+      {
+        name: "Buntes Pfannengemüse oder Beilagensalat",
+        description: "mit Balsamico-Vinaigrette oder Joghurt-Kräuter-Dressing",
+        price: "3,90 €",
+      },
+      {
+        name: "Soßen",
+        description: "Paprikasoße, Jägersoße (auf Rotweinjus-Basis), Knoblauch-Kräuter-Soße oder Bratzwiebeln",
+        price: "1,50 €",
+      },
+      {
+        name: "Kräuterbutter oder Knoblauch-Chili-Butter",
+        description: "",
+        price: "1,50 €",
+      },
+    ],
+  },
+  {
+    id: "desserts",
+    label: "Desserts",
+    intro: "Süßer Abschluss.",
+    items: [
+      {
+        name: "Schoko-Kirsch-Küchlein",
+        description: "dazu eine Kugel Vanilleeis und Schlagsahne",
+        price: "5,90 €",
+      },
+      {
+        name: "Bällchen Eis",
+        description: "wahlweise Vanille, Erdbeere oder Schokolade (mit Sahne + 1,50 €)",
+        price: "1,50 €",
+      },
+    ],
+  },
+  {
+    id: "kinder",
+    label: "Für unsere kleinen Gäste",
+    intro: "Kindergerichte.",
+    items: [
+      {
+        name: "Krümelmonster",
+        description: "kleines Schweineschnitzel in einer Laugengebäck-Panade mit Pommes frites oder Pfannengemüse",
+        price: "7,90 €",
+      },
+      {
+        name: "Tabaluga",
+        description: "Kohlrabischeiben in einer Laugengebäck-Panade mit Pommes frites",
+        price: "5,90 €",
+      },
+      {
+        name: "Donald Duck",
+        description: "6 Chicken Nuggets aus frischem Hühnchen in einer Laugengebäck-Panade mit Pommes frites oder Pfannengemüse",
+        price: "7,90 €",
+      },
+    ],
+  },
 ];
