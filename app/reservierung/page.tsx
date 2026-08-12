@@ -108,15 +108,12 @@ export default function ReservierungPage() {
       {/* Header */}
       <header className="border-b border-ink/10">
         <nav className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-5 md:px-10">
-          <a href="/" className="group flex items-center gap-3">
+          <a href="/" className="group flex items-center">
             <img
               src="/assets/logo-mark.png"
               alt={`${config.name} Logo`}
               className="h-20 w-auto md:h-28"
             />
-            <span className="hidden font-display text-[18px] tracking-tight text-ink sm:block md:text-[20px]">
-              {config.name}
-            </span>
           </a>
           <a
             href="/"
