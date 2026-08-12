@@ -27,15 +27,12 @@ export function Navbar() {
     >
       <div className={`absolute inset-x-0 bottom-0 h-px transition-opacity ${scrolled ? "bg-ink/10 opacity-100" : "opacity-0"}`} />
       <nav className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-5 md:px-10">
-        <a href="#" className="group flex items-center gap-3">
+        <a href="#" className="group flex items-center">
           <img
             src="/assets/logo-mark.png"
             alt={`${config.name} Logo`}
             className={`h-20 w-auto transition-all duration-500 md:h-28`}
           />
-          <span className={`hidden font-display text-[18px] tracking-tight transition-colors duration-500 sm:block md:text-[20px] ${scrolled ? "text-ink" : "text-bone"}`}>
-            {config.name}
-          </span>
         </a>
 
         <div className="hidden items-center gap-10 md:flex">
