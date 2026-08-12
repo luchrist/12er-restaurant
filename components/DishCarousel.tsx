@@ -6,29 +6,27 @@ import { type DishCarouselItem } from "@/lib/dish-carousel-data";
 
 export function DishCarousel({ items }: { items: DishCarouselItem[] }) {
   const ref = useRef<HTMLDivElement>(null);
+  const looped = items.length > 1 ? [...items, ...items] : items;
 
-  const scrollToIndex = useCallback(
-    (index: number) => {
-      const el = ref.current;
-      if (!el || items.length <= 1) return;
-      const card = el.querySelector<HTMLElement>("[data-card]");
-      const step = (card?.offsetWidth ?? 300) + 24;
-      const next = (index + items.length) % items.length;
-      el.scrollTo({ left: next * step, behavior: "smooth" });
-    },
-    [items.length]
-  );
+  const getStep = useCallback(() => {
+    const el = ref.current;
+    if (!el) return 0;
+    const card = el.querySelector<HTMLElement>("[data-card]");
+    return (card?.offsetWidth ?? 300) + 24;
+  }, []);
 
   const scroll = useCallback(
     (dir: -1 | 1) => {
       const el = ref.current;
-      if (!el) return;
-      const card = el.querySelector<HTMLElement>("[data-card]");
-      const step = (card?.offsetWidth ?? 300) + 24;
-      const current = Math.round(el.scrollLeft / step);
-      scrollToIndex(current + dir);
+      if (!el || items.length <= 1) return;
+      const step = getStep();
+      if (step === 0) return;
+      const setWidth = step * items.length;
+      if (el.scrollLeft >= setWidth) el.scrollLeft -= setWidth;
+      else if (el.scrollLeft < 0) el.scrollLeft += setWidth;
+      el.scrollTo({ left: el.scrollLeft + dir * step, behavior: "smooth" });
     },
-    [scrollToIndex]
+    [items.length, getStep]
   );
 
   useEffect(() => {
@@ -36,6 +34,27 @@ export function DishCarousel({ items }: { items: DishCarouselItem[] }) {
     const interval = setInterval(() => scroll(1), 4500);
     return () => clearInterval(interval);
   }, [items.length, scroll]);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || items.length <= 1) return;
+    let timeout: ReturnType<typeof setTimeout>;
+    const onScroll = () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        const step = getStep();
+        if (step === 0) return;
+        const setWidth = step * items.length;
+        if (el.scrollLeft >= setWidth) el.scrollLeft -= setWidth;
+        else if (el.scrollLeft < 0) el.scrollLeft += setWidth;
+      }, 180);
+    };
+    el.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      el.removeEventListener("scroll", onScroll);
+      clearTimeout(timeout);
+    };
+  }, [items.length, getStep]);
 
   return (
     <section className="bg-bone py-24 md:py-32 overflow-hidden">
@@ -74,14 +93,14 @@ export function DishCarousel({ items }: { items: DishCarouselItem[] }) {
 
         <div
           ref={ref}
-          className="flex gap-6 overflow-x-auto scroll-smooth pb-2"
+          className="flex gap-6 overflow-x-auto pb-2"
           style={{ scrollbarWidth: "none" }}
         >
-          {items.map((dish) => (
+          {looped.map((dish, i) => (
             <div
-              key={dish.name}
+              key={`${dish.name}-${i}`}
               data-card=""
-              className="flex-none w-[80vw] md:w-[calc(33.333%-16px)] snap-start group"
+              className="flex-none w-[80vw] md:w-[calc(33.333%-16px)] group"
             >
               <div className="overflow-hidden rounded-lg border border-ink/[0.08] h-full flex flex-col">
                 <div className="relative h-72 overflow-hidden flex-none">
